@@ -206,4 +206,4 @@ class CachedQueryBuilder(QueryBuilder):
 
         :rtype: callable
         """
-        return lambda: self.get_fresh(columns)
+        return lambda: self.get(columns)
